@@ -1,5 +1,6 @@
+/*Custom Google Font Open Sans Font For Styling*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+/*Optional Animation*/
 @keyframes rotate {
     100% {
      -webkit-transform: rotateZ(360deg);
@@ -45,6 +46,7 @@
     bottom: 0;
     
 }
+/*The Hour, Minute and the Seconds Hand*/
 .hourHand{
     width           : 5px;
     height          : 75px;
@@ -76,6 +78,7 @@
     left            : 102px;    
     transform-origin: 50% 100%;                                        
 }
+/*The Center Nut for the Clock*/
 .nut{
     width           : 15px;
     height          : 15px;
